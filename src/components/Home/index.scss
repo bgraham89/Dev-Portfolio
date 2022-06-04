@@ -1,0 +1,52 @@
+.home-page {
+
+    .text-zone {
+        left: 10%;
+        max-height: 90%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+    }
+
+    h1 {
+        color: #ffffff;
+        font-family: 'coolvetica';
+        font-size: 53px;
+        font-weight: 400;
+
+        em {
+            font-style: normal;
+        }
+    }
+
+    h2 {
+        animation: fadeIn 1s 1.8s backwards;
+        color: #8d8d8d;
+        letter-spacing: 3px;
+        font-family: sans-serif;
+        font-size: 11px;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+
+    .flat-button {
+        animation: fadeIn 1s 1.8s backwards;
+        border: 1px solid #ffd700;
+        color: #ffd700;
+        letter-spacing: 4px;
+        float: left;
+        font-family: sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        margin-top: 25px;
+        padding: 10px 10px;
+        text-decoration: none;
+        white-space: nowrap;
+
+        &:hover {
+            background: #ffd700;
+            color: #333333;
+        }
+    }
+}
