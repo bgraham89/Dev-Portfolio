@@ -1,43 +1,48 @@
 .nav-bar {
     background: #181818;
-    height: 100%;
-    min-height: 500px;
-    position: absolute;
-    top: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: fixed;
     width: 60px;
     z-index: 3;
 
     .logo {
-        display: block;
-        padding: 8px 0;
+        display: flex;
+        height: 100px;
+        flex-direction: column;
 
         img {
-            display: block;
-            height: auto;
-            margin: 8px auto;
-            width: 24px;
+            margin-left: 15px;
+            margin-top: 15px;
+            width: 30px;
 
             &.sub-logo {
+                padding: 0;
+                margin-left: 5px;
+                margin-top: 5px;
                 width: 50px;
             }
         }
     }
 
     nav {
-        display: block;
-        height: 201px;
-        margin-top: -120px;
-        position: absolute;
+        align-content: space-between;
+        display: flex;
+        height: 200px;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: auto;
+        margin-top: auto;
         text-align: center;
-        top: 50%;
         width: 100%;
 
         a {
             color: #4d4d4e;
             display: block;
             font-size: 22px;
-            height: 51px;
-            line-height: 51px;
+            height: 50px;
+            line-height: 50px;
             position: relative;
             text-decoration: none;
 
@@ -77,9 +82,15 @@
             }
         }
 
-        a.about-link {
+        a.assets-link {
             &:after {
-                content: 'ABOUT'
+                content: 'ASSETS'
+            }
+        }
+
+        a.blog-link {
+            &:after {
+                content: 'BLOG'
             }
         }
 
@@ -97,12 +108,11 @@
     }
 
     ul {
-        bottom: 20px;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-self: flex-end;
         list-style: none;
-        margin: 0;
         padding: 0;
-        position: absolute;
         text-align: center;
         width: 100%;
 
@@ -110,8 +120,8 @@
             a {
                 display: block;
                 font-size: 15px;
-                line-height: 16px;
-                padding: 7px 0;
+                line-height: 15px;
+                margin-top: 15px;
 
                 &:hover .linkedin{
                     color: #0077b5
