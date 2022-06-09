@@ -1,5 +1,6 @@
 .home-page {
-    .text-zone {
+    background-color: #022c43;
+    .landing-zone {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -8,7 +9,7 @@
         h1 {
             color: #ffffff;
             font-family: 'coolvetica';
-            font-size: 10vmin;
+            font-size: 9vmin;
             font-weight: 400;
             margin: 0;
         }
@@ -36,18 +37,12 @@
             padding: 10px 10px;
             text-align: center;
             text-decoration: none;
-            width: 200px;
+            width: 150px;
     
             &:hover {
                 background: #ffd700;
                 color: #333333;
             }
         }
-    }
-
-    .color-zone {
-        background-color: red;
-        border-style: solid; 
-        display: flex;
     }
 }

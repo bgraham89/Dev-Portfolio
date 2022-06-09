@@ -1,0 +1,18 @@
+.blog-page {
+    background-color: #3b9a6c;
+    
+    .navigation-zone {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: left;
+
+        h1 {
+            color: #ffffff;
+            font-family: 'coolvetica';
+            font-size: 9vmin;
+            font-weight: 400;
+            margin: 0;
+        }
+    }
+}

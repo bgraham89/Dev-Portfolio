@@ -1,0 +1,89 @@
+.contact-page {
+    background-color: #bb3333;
+
+    .form-zone {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        h1 {
+            color: #ffffff;
+            font-family: 'Coolvetica';
+            font-size: 9vmin;
+            font-weight: 400;
+            margin: 0;
+        }
+
+        form {
+            align-self: center;
+            display: flex;
+            justify-content: center;
+            margin-bottom: auto;
+            margin-top: auto;
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                list-style: none;
+                padding: 0;
+
+                .label {
+                    color: #ffd700;
+                    height: 2em;
+                    margin-bottom: 9px;
+                    text-align: left;
+
+                    p {
+                        font-family: 'La Belle Aurore';
+                        font-size: 1.8em;
+                        margin-bottom: 0;
+                        margin-top: 0;
+                    }
+                }
+    
+                .functional {
+                    margin-bottom: 15px;
+
+                    input[type='text'] {
+                        font-family: sans-serif;
+                        font-size: 2em;
+                        height: 5vh;
+                        max-width: 700px;
+                        min-width: 150px;
+                        width: 60vw;
+
+                    }
+
+                    textarea {
+                        font-family: sans-serif;
+                        font-size: 2em;
+                        height: 20vh;
+                        max-width: 700px;
+                        min-width: 150px;
+                        overflow-y: auto;
+                        resize: none;
+                        width:60vw;
+                    }
+
+                    button {
+                        background: none;
+                        border: none;
+                        font-size: 50px;
+
+                        &:hover {
+                            animation: rubberBand 1s;
+                        }
+                        
+                        .color {
+                            color: #ffffff;
+
+                            &:active {
+                                color: #ffd700;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
