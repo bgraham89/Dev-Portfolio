@@ -20,7 +20,7 @@ const Home = () => {
                     Hi, I'm <br/>
                     <AnimatedLetters letterClass={letterClass} strArray={textArray} idx={5}/>
                 </h1>
-                <h2>Content Developer / Ontology Expert / Tutor</h2>
+                <h2>Personal Tutor / Teacher / Mentor</h2>
                 <Link to='/contact' className='flat-button'>CONTACT ME</Link>
             </section>
         </div>

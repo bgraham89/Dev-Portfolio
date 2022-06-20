@@ -2,9 +2,9 @@ import './index.scss'
 import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 
-const Blog = () => {
+const Services = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const textArray = ['B', 'r', 'a', 'd', "'", 's', ' ', 'B', 'l', 'o', 'g']
+    const textArray = ['B', 'r', 'a', 'd', "'", 's', ' ', 'S', 'e', 'r', 'v', 'i', 'c', 'e', 's']
 
     useEffect(() => {
         setTimeout(() => {
@@ -12,7 +12,7 @@ const Blog = () => {
         }, 6000)
     }, [] )
     return (
-        <div className='content blog-page'>
+        <div className='content services-page'>
             <section className='navigation-zone'>
                 <h1>
                     <AnimatedLetters letterClass={letterClass} strArray={textArray} idx={5}/>
@@ -22,4 +22,4 @@ const Blog = () => {
     )
 }
 
-export default Blog
+export default Services
