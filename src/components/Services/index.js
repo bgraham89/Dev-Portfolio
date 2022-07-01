@@ -4,12 +4,12 @@ import AnimatedLetters from '../AnimatedLetters'
 
 const Services = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const textArray = ['B', 'r', 'a', 'd', "'", 's', ' ', 'S', 'e', 'r', 'v', 'i', 'c', 'e', 's']
+    const textArray = ['M', 'y', ' ', 'S', 'e', 'r', 'v', 'i', 'c', 'e', 's']
 
     useEffect(() => {
         setTimeout(() => {
             setLetterClass('text-animate-hover')
-        }, 6000)
+        }, 4000)
     }, [] )
     return (
         <div className='content services-page'>

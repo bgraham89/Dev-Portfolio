@@ -12,7 +12,7 @@ const Contact = () => {
     useEffect(() => {
         setTimeout(() => {
             setLetterClass('text-animate-hover')
-        }, 6000)
+        }, 4500)
     }, [] )
     return (
         <div className='content contact-page'>

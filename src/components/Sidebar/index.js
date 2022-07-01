@@ -4,7 +4,7 @@ import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHome, faPersonChalkboard } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin, faSpotify, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = () => {
     return (
@@ -26,23 +26,8 @@ const Sidebar = () => {
             </nav>
             <nav id="external-links">
                 <ul className='display-structure'>
-                    <li className='LinkedIn-link'>
-                        <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/bradley-graham-a7bb4a136/'>
-                            <FontAwesomeIcon className='linkedin' icon={faLinkedin} color='#4d4d4e'/>
-                        </a>
-                    </li>
-                    <li className='Github-link'>
-                        <a target="_blank" rel='noreferrer' href='https://github.com/bgraham89'>
-                            <FontAwesomeIcon className='github' icon={faGithub} color='#4d4d4e'/>
-                        </a>
-                    </li>
-                    <li className='Spotify-link'>
-                        <a target="_blank" rel='noreferrer' href='https://open.spotify.com/user/brad7777'>
-                            <FontAwesomeIcon className='spotify' icon={faSpotify} color='#4d4d4e'/>
-                        </a>
-                    </li>
                     <li className='Youtube-link'>
-                        <a target="_blank" rel='noreferrer' href='https://www.youtube.com/channel/UCnAkHr0opNBtosPykdh0aSw/featured'>
+                        <a target="_blank" rel='noreferrer' href='https://www.youtube.com/channel/UCnAkHr0opNBtosPykdh0aSw'>
                             <FontAwesomeIcon className='youtube' icon={faYoutube} color='#4d4d4e'/>
                         </a>
                     </li>

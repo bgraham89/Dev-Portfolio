@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    min-height: 500px;
+    min-height: 300px;
     position: fixed;
     width: 60px;
     z-index: 3;
@@ -108,6 +108,7 @@
         justify-self: flex-end;
         list-style: none;
         padding: 0;
+        padding-bottom: 3.5vh;
         text-align: center;
         width: 100%;
 
@@ -117,18 +118,6 @@
                 font-size: 15px;
                 line-height: 15px;
                 margin-top: 15px;
-
-                &:hover .linkedin{
-                    color: #0077b5
-                }
-
-                &:hover .github{
-                    color: #fafafa
-                }
-
-                &:hover .spotify{
-                    color: #1db954
-                }
 
                 &:hover .youtube{
                     color: #ff0000

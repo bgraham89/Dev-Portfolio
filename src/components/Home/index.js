@@ -5,19 +5,18 @@ import AnimatedLetters from '../AnimatedLetters';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const textArray = ['B', 'r', 'a', 'd', 'l', 'e', 'y', ' ', 'G', 'r', 'a', 'h', 'a', 'm']
+    const textArray = ['D', 'e', 'v', 'G', 'u', 'm', 'D', 'r', 'o', 'p']
 
     useEffect(() => {
         setTimeout(() => {
             setLetterClass('text-animate-hover')
-        }, 6000)
+        }, 3500)
     }, [] )
 
     return (
         <div className='content home-page'>
             <section className='landing-zone'>
                 <h1>
-                    Hi, I'm <br/>
                     <AnimatedLetters letterClass={letterClass} strArray={textArray} idx={5}/>
                 </h1>
                 <h2>Personal Tutor / Teacher / Mentor</h2>
