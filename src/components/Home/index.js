@@ -19,7 +19,7 @@ const Home = () => {
                 <h1>
                     <AnimatedLetters letterClass={letterClass} strArray={textArray} idx={5}/>
                 </h1>
-                <h2>Personal Tutor / Teacher / Mentor</h2>
+                <h2>Teacher / Designer / Problem Solver</h2>
                 <Link to='/contact' className='flat-button'>CONTACT ME</Link>
             </section>
         </div>

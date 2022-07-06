@@ -15,4 +15,26 @@
             margin: 0;
         }
     }
+
+    .teaching-service {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            color: #ffffff;
+            font-family: 'La Belle Aurore';
+            font-size: 9vmin;
+            text-decoration: underline;
+        }
+
+        ul {
+
+            padding-inline-start: 30px;
+
+            li {
+                font-family: 'La Belle Aurore';
+                font-size: 4vmin;
+            }
+        }
+    }
 }
