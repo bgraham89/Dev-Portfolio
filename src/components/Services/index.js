@@ -21,7 +21,7 @@ const Services = () => {
                     <h2>Teaching:</h2>
                     <ul>
                         <li>5+ years teaching experience</li>
-                        <li>Rates at £30 per hour</li>
+                        <li>Rates at £20 per hour</li>
                         <li>Available Courses:</li>
                         <ul>
                             <li>mathematics</li> 

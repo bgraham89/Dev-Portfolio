@@ -23,25 +23,25 @@ const Contact = () => {
                 <form id='contact-form'>
                     <ul className='display-structure'>
                         <li className='label name-entry'>
-                            <p>Name...</p>
+                            <p>Name</p>
                         </li>
                         <li className='functional name-entry'>
                             <input type='text' name='name' required/>
                         </li>
                         <li className='label email-entry'>
-                            <p>Email Address...</p>
+                            <p>Email Address</p>
                         </li>
                         <li className='functional email-entry'>
                             <input type='text' name='email' required/>
                         </li>
                         <li className='label subject-entry'>
-                            <p>Subject...</p>
+                            <p>Subject</p>
                         </li>
                         <li className='functional subject-entry'>
                             <input type='text' name='subject' required/>
                         </li>
                         <li className='label message-entry'>
-                            <p>Message...</p>
+                            <p>Message</p>
                         </li>
                         <li className='functional message-entry'>
                             <textarea name="message" required/>
