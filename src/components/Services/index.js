@@ -26,9 +26,9 @@ const Services = () => {
                         <ul>
                             <li>mathematics</li> 
                             <li>English language</li>
-                            <li>3d-modelling with <a href="https://www.blender.org/">Blender</a></li>
-                            <li>game development with <a href="https://www.roblox.com/create">Roblox Studios</a></li>
-                            <li>programming with <a href="https://www.python.org/">Python</a></li>
+                            <li>3d-modelling with <a href="https://www.blender.org/" target="_blank">Blender</a></li>
+                            <li>game development with <a href="https://www.roblox.com/create" target="_blank">Roblox Studios</a></li>
+                            <li>programming with <a href="https://www.python.org/" target="_blank">Python</a></li>
                         </ul>
                     </ul>
                 </div>
