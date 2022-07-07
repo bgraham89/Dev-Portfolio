@@ -5,7 +5,7 @@ import AnimatedLetters from '../AnimatedLetters';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const textArray = ['D', 'e', 'v', 'G', 'u', 'm', 'D', 'r', 'o', 'p']
+    const textArray = ['B', 'r', 'a', 'd', 'l', 'e', 'y', ' ', 'G', 'r', 'a', 'h', 'a', 'm']
 
     useEffect(() => {
         setTimeout(() => {
