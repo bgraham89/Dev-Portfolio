@@ -4,12 +4,12 @@ import AnimatedLetters from '../AnimatedLetters'
 
 const Services = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const textArray = ['M', 'y', ' ', 'S', 'e', 'r', 'v', 'i', 'c', 'e', 's']
+    const textArray = ['S', 'e', 'r', 'v', 'i', 'c', 'e', 's']
 
     useEffect(() => {
         setTimeout(() => {
-            setLetterClass('text-animate-hover')
-        }, 4000)
+            setLetterClass('text-animate-hover-2')
+        }, 3500)
     }, [] )
     return (
         <div className='content services-page'>
@@ -18,10 +18,10 @@ const Services = () => {
                     <AnimatedLetters letterClass={letterClass} strArray={textArray} idx={5}/>
                 </h1>
                 <div className='teaching-service'>
-                    <h2>Teaching:</h2>
+                    <h2>Teaching</h2>
                     <ul>
-                        <li>5+ years teaching experience</li>
-                        <li>Rates at £20 per hour</li>
+                        <li>5+ years teaching and tutoring experience</li>
+                        <li>Rates starting from £20 per hour</li><br/><br/>
                         <li>Available Courses:</li>
                         <ul>
                             <li>mathematics</li> 

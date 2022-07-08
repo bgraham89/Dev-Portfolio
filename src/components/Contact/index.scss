@@ -1,5 +1,5 @@
 .contact-page {
-    background-color: #bb3333;
+    background-color: #cc2936;
 
     .form-zone {
         display: flex;
@@ -20,6 +20,7 @@
             justify-content: center;
             margin-bottom: auto;
             margin-top: auto;
+            width: 50vw;
 
             ul {
                 display: flex;
@@ -28,7 +29,7 @@
                 padding: 0;
 
                 .label {
-                    color: #181818;
+                    color: #ffffff;
                     height: 2em;
                     margin-bottom: 9px;
                     text-align: left;
@@ -40,7 +41,23 @@
                         margin-left: -10px;
                         margin-top: 0;
                     }
+
                 }
+
+                .name-entry, .email-entry {
+                    p:hover {
+                        font-size: 2.5em;
+                        margin-top: -0.1em;
+                    }
+                }
+
+                .message-entry, .subject-entry {
+                    p:hover {
+                        font-size: 2.5em;
+                        margin-top: -0.4em;
+                    }
+                }
+
     
                 .functional {
                     margin-bottom: 15px;

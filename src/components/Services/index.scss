@@ -9,9 +9,9 @@
 
         h1 {
             color: #ffffff;
-            font-family: 'coolvetica';
+            font-family: 'Coolvetica';
             font-size: 9vmin;
-            font-weight: 400;
+            font-weight: 300;
             margin: 0;
         }
     }
@@ -24,7 +24,7 @@
         justify-content: center;
 
         h2 {
-            color: #ffffff;
+            color: #08415c;
             font-family: 'La Belle Aurore';
             font-size: 9vmin;
             text-decoration: underline;
@@ -37,6 +37,16 @@
             li {
                 font-family: 'La Belle Aurore';
                 font-size: 4vmin;
+
+                a {
+                    text-decoration: none;
+                    color: #444;
+
+                    &:hover {
+                        color: #08415c;
+                        text-decoration: underline;
+                    }
+                }
             }
         }
     }

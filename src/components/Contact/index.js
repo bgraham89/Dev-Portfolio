@@ -7,7 +7,7 @@ import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
 const Contact = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate')
-    const textArray = ['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'M', 'e']
+    const textArray = ['C', 'o', 'n', 't', 'a', 'c', 't']
 
     useEffect(() => {
         setTimeout(() => {
