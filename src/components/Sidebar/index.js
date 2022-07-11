@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 import './index.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHome, faPersonChalkboard } from '@fortawesome/free-solid-svg-icons'
-import { faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faYoutube, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = () => {
     return (
@@ -23,6 +23,11 @@ const Sidebar = () => {
                     <li className='Youtube-link'>
                         <a target="_blank" rel='noreferrer' href='https://www.youtube.com/channel/UCnAkHr0opNBtosPykdh0aSw'>
                             <FontAwesomeIcon className='youtube' icon={faYoutube} color='#4d4d4e'/>
+                        </a>
+                    </li>
+                    <li className='Github-link'>
+                        <a target="_blank" rel='noreferrer' href='https://github.com/bgraham89'>
+                            <FontAwesomeIcon className='github' icon={faGithub} color='#4d4d4e'/>
                         </a>
                     </li>
                 </ul>
