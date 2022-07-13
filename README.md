@@ -1,6 +1,6 @@
 # Dev-Portfolio
 
-The repository for my portfolio website.
+The repository for my [personal website](https://www.devgumdrop.com).
 
 ## Technology
 

@@ -40,7 +40,7 @@ const Contact = () => {
                 <form id='contact-form' ref={form} onSubmit={sendEmail}>
                     <ul className='display-structure'>
                         <li className='label name-entry'>
-                            <p>Name</p>
+                            <p>Name</p> 
                         </li>
                         <li className='functional name-entry'>
                             <input type='text' name='name' required/>

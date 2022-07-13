@@ -21,12 +21,12 @@ const Services = () => {
                     <h2>Teaching</h2>
                     <ul>
                         <li>5+ years teaching and tutoring experience</li>
-                        <li>Rates starting from £20 per hour</li><br/><br/>
+                        <li>Rates starting from £20 per hour (not per person)</li><br/><br/>
                         <li>Available Courses:</li>
                         <ul>
                             <li>mathematics</li> 
                             <li>English language</li>
-                            <li>3d-modelling with <a href="https://www.blender.org/" target="_blank">Blender</a></li>
+                            <li>3d-modelling with <a href="https://www.blender.org/features" target="_blank">Blender</a></li>
                             <li>game development with <a href="https://www.roblox.com/create" target="_blank">Roblox Studios</a></li>
                             <li>programming with <a href="https://www.python.org/" target="_blank">Python</a></li>
                         </ul>
