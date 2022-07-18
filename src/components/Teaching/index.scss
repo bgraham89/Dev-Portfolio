@@ -1,6 +1,6 @@
 .teaching-page {
     background-color: #77cca4;
-    height: max(100vh, 700px);
+    min-height: max(100vh, 450px);
     
     .landing-zone {
         display: flex;
@@ -9,16 +9,17 @@
         text-align: left;
 
         h1 {
-            font-family: papyrus, 'Coolvetica';
+            font-family: 'Coolvetica';
             font-size: 9vmin;
-            font-weight: 900;
+            font-weight: 300;
+            margin-bottom: min(20px, 5vh);
             margin-top: 0;
         }
 
         p {
             align-self: flex-start;
             animation: fadeIn 1s 1.8s backwards;
-            font-family: papyrus, 'Coolvetica';
+            font-family: 'Helvetica Neu';
             font-size: 4vmin;
             font-weight: 600;
             margin-bottom: 0;
@@ -32,7 +33,7 @@
         animation: fadeIn 1s 1.8s backwards;
         display: flex;
         flex-direction: column;
-        height: 70vh;
+        height: 50vh;
         justify-content: center;
         margin-top: max(60px, 7vh);
 
@@ -41,11 +42,12 @@
             border-color: rgba(209, 91, 13, 0.5);
             border-style: solid;
             border-width: 5px;
-            padding: 4em;
+            padding: 3.5em;
 
             h2 {
                 font-family: 'La Belle Aurore';
                 font-size: 7.5vmin;
+                font-weight: 300;
                 margin-bottom: 0;
                 margin-top: 0;
             }

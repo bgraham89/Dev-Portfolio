@@ -3,8 +3,8 @@ $primary-color: #ffd700;
 @import 'animate.css';
 
 @font-face {
-    font-family: 'Helevetica Neue';
-    src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
+    font-family: 'Helvetica Neu';
+    src: url('./assets/fonts/helvetica-neu.ttf') format('truetype');
 }
 
 @font-face {
@@ -17,8 +17,16 @@ $primary-color: #ffd700;
     src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
 
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('./assets/fonts/JosefinSans-Regular.ttf') format('truetype');
+}
+
+
+
+
 input, textarea {
-    font-family: 'Helevetica-neue';
+    font-family: 'Helvetica Neu';
 }
 
 .App {
