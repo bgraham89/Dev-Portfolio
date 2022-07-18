@@ -18,10 +18,10 @@
             animation: fadeIn 1s 1.8s backwards;
             color: #8d8d8d;
             font-family: sans-serif;
-            font-size: 2vmin;
+            font-size: max(2vmin, 9px);
             font-weight: 400;
             letter-spacing: 2px;
-            padding-left: 20px;
+            padding-left: min(20px, 2vw);
         }
 
         .flat-button {
@@ -30,14 +30,14 @@
             color: #ffd700;
             letter-spacing: 4px;
             font-family: sans-serif;
-            font-size: 13px;
+            font-size: min(13px, 3vmin);
             font-weight: 400;
-            margin-left: 20px;
-            margin-top: 20px;
+            margin-left: min(20px, 2vw);
+            margin-top: min(20px, 2vh);
             padding: 10px 10px;
             text-align: center;
             text-decoration: none;
-            width: 150px;
+            width: min(150px, 40vw);
     
             &:hover {
                 background: #ffd700;

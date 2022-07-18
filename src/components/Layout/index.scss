@@ -1,9 +1,9 @@
 .page {
     display: flex;
     height: max-content;
-    margin-left: 60px;
+    margin-left: min(60px, 10vw);
     min-height: 100vh;
-    width: calc(100% - 60px);
+    width: calc(100% - min(60px, 10vw));
 }
 
 .content {
@@ -26,6 +26,6 @@ section {
     display: flex;
     height: 100vh;
     margin: 0;
-    padding-left: 30px;
+    padding-left: min(30px, 5vw);
     width: calc(100% - 30px);
 }

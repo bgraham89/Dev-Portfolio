@@ -2,14 +2,14 @@
     animation: bounceIn 1s 1s;
     animation-fill-mode: forwards;
     display: inline-block;
-    min-width: 10px;
+    min-width: 7px;
     opacity: 0;
 }
 
 .text-animate-hover {
     animation-fill-mode: both;
     display: inline-block;
-    min-width: 10px;
+    min-width: 7px;
 
     &:hover {
         animation: rubberBand 1s;
@@ -20,11 +20,11 @@
 .text-animate-hover-2 {
     animation-fill-mode: both;
     display: inline-block;
-    min-width: 10px;
+    min-width: 7px;
 
     &:hover {
         animation: rubberBand 1s;
-        color: #08415c;
+        color: #ffffff;
     }
 }
 

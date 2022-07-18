@@ -1,5 +1,6 @@
 .contact-page {
     background-color: #cc2936;
+    height: max(100vh, 700px);
 
     .form-zone {
         display: flex;
@@ -16,6 +17,7 @@
 
         form {
             align-self: center;
+            animation: fadeIn 1s 1.8s backwards;
             display: flex;
             justify-content: center;
             margin-bottom: auto;
@@ -65,7 +67,7 @@
                     input[type='text'] {
                         font-family: sans-serif;
                         font-size: 2em;
-                        height: 5vh;
+                        height: max(2vh, 2em);
                         max-width: 700px;
                         min-width: 150px;
                         width: 60vw;
@@ -75,7 +77,7 @@
                     textarea {
                         font-family: sans-serif;
                         font-size: 2em;
-                        height: 20vh;
+                        height: max(20vh, 8em);
                         max-width: 700px;
                         min-width: 150px;
                         overflow-y: auto;

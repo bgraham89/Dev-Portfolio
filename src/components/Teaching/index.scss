@@ -1,0 +1,62 @@
+.teaching-page {
+    background-color: #77cca4;
+    
+    .landing-zone {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: left;
+
+        h1 {
+            color: #08415c;
+            font-family: 'Coolvetica';
+            font-size: 9vmin;
+            font-weight: 300;
+            margin-top: 0;
+        }
+
+        p {
+            align-self: flex-start;
+            animation: fadeIn 1s 1.8s backwards;
+            font-family: 'La Belle Aurore';
+            font-size: 4vmin;
+            margin-bottom: 0;
+            margin-left: min(60px, 7vw);
+            margin-top: 0;
+        }
+    }
+
+    .courses {
+        align-items: flex-start;
+        animation: fadeIn 1s 1.8s backwards;
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        justify-content: center;
+        margin-left: min(120px, 14vw);
+
+        h2 {
+            color: #08415c;
+            font-family: 'La Belle Aurore';
+            font-size: 7.5vmin;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+        
+        ul {
+            list-style: none;
+            padding-inline-start: 2vw;
+
+            li {
+                font-family: 'La Belle Aurore';
+                font-size: 5vmin;
+
+                .course-name:hover {
+                    color: #ffffff;
+                    cursor: pointer;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
