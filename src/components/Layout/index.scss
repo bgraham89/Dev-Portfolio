@@ -27,5 +27,6 @@ section {
     height: 100vh;
     margin: 0;
     padding-left: min(30px, 5vw);
-    width: calc(100% - 30px);
+    padding-right: min(30px, 5vw);
+    width: calc(100% - min(30px, 5vw) * 2);
 }

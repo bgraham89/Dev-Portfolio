@@ -20,14 +20,16 @@ const Teaching = () => {
                 <p>5+ years teaching and tutoring experience.</p>
                 <p>Rates starting from £20 per hour per group.</p>
                 <div className='courses'>
-                    <h2>Available Courses</h2>
-                    <ul>
-                        <li><span className='course-name'>Mathematics</span></li> 
-                        <li><span className='course-name'>English language</span></li>
-                        <li><span className='course-name'>3d-modelling with Blender</span></li>
-                        <li><span className='course-name'>game development with Roblox Studios</span></li>
-                        <li><span className='course-name'>Programming with Python</span></li>
-                    </ul>
+                    <div className='chalk-outline'>
+                        <h2>Available Courses</h2>
+                        <ul>
+                            <li><span className='course-name'>Mathematics</span></li> 
+                            <li><span className='course-name'>English language</span></li>
+                            <li><span className='course-name'>3d-modelling with Blender</span></li>
+                            <li><span className='course-name'>game development with Roblox Studios</span></li>
+                            <li><span className='course-name'>Programming with Python</span></li>
+                        </ul>
+                    </div>
                 </div>
             </section>
         </div>

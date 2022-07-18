@@ -14,7 +14,7 @@ const Contact = () => {
     useEffect(() => {
         setTimeout(() => {
             setLetterClass('text-animate-hover')
-        }, 4500)
+        }, 3500)
     }, [] )
 
     const sendEmail = (e) => {
