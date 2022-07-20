@@ -1,20 +1,21 @@
 .teaching-page {
-    background-color: #77cca4;
-    min-height: max(100vh, 450px);
-    
-    .landing-zone {
+    h1 {
+        font-family: 'Coolvetica';
+        font-size: 9vmin;
+        font-weight: 300;
+        margin-bottom: min(20px, 5vh);
+        margin-top: 0;
+    }
+
+    .flex-col {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        text-align: left;
+    }
 
-        h1 {
-            font-family: 'Coolvetica';
-            font-size: 9vmin;
-            font-weight: 300;
-            margin-bottom: min(20px, 5vh);
-            margin-top: 0;
-        }
+    .landing-zone {
+        background-color: #77cca4;
+        min-height: max(100vh, 450px);
+        text-align: left;
 
         p {
             align-self: flex-start;
@@ -26,46 +27,91 @@
             margin-left: min(60px, 7vw);
             margin-top: 0;
         }
-    }
 
-    .courses {
-        align-items: center;
-        animation: fadeIn 1s 1.8s backwards;
-        display: flex;
-        flex-direction: column;
-        height: 50vh;
-        justify-content: center;
-        margin-top: max(60px, 7vh);
-
-        .chalk-outline {
-            background-color: rgb(245, 137, 75);
-            border-color: rgba(209, 91, 13, 0.5);
-            border-style: solid;
-            border-width: 5px;
-            padding: 3.5em;
-
-            h2 {
-                font-family: 'La Belle Aurore';
-                font-size: 7.5vmin;
-                font-weight: 300;
-                margin-bottom: 0;
-                margin-top: 0;
-            }
-            
-            ul {
-                padding-inline-start: 2vw;
+        .courses {
+            align-items: center;
+            animation: fadeIn 1s 1.8s backwards;
+            height: 50vh;
+            justify-content: center;
+            margin-top: max(60px, 7vh);
     
-                li {
+            .chalk-outline {
+                background-color: rgb(245, 137, 75);
+                border-color: rgba(209, 91, 13, 0.5);
+                border-style: solid;
+                border-width: 5px;
+                padding: 3.5em;
+    
+                h2 {
                     font-family: 'La Belle Aurore';
-                    font-size: 5vmin;
-    
-                    .course-name:hover {
-                        color: #ffffff;
-                        cursor: pointer;
-                        font-weight: bold;
+                    font-size: 7.5vmin;
+                    font-weight: 300;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                }
+                
+                ul {
+                    padding-inline-start: 2vw;
+        
+                    li {
+                        font-family: 'La Belle Aurore';
+                        font-size: 5vmin;
+
+                        .course-name {
+                            color: #444444;
+                            text-decoration: none;
+
+                            &:hover {
+                                color: #ffffff;
+                                cursor: pointer;
+                                font-weight: bold;
+                            }
+                        }
                     }
                 }
             }
         }
     }
+
+    .mathematics-services {
+        text-align: right;
+        background-color: #f0cc80;
+
+        h1 {
+            color: #413434
+        }
+    }
+
+    .english-services {
+        text-align: left;
+        background-color: #ece6d5;
+
+        h1 {
+            color: #634b30;
+        }
+    }
+
+    .modelling-services {
+        text-align: right;
+        background-color: #ecc411;
+
+        h1 {
+            color: #181818;
+        }
+    }
+
+    .gamedev-services {
+        text-align: left;
+        background-color: #a3dff1;
+
+        h1 {
+            color: #413434;
+        }
+    }
+
+    .programming-services {
+        text-align: right;
+        background-color: #ffffff;
+    }
+
 }
