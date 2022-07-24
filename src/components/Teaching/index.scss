@@ -73,26 +73,34 @@
         }
     }
 
-    .mathematics-services {
-        text-align: right;
-        background-color: #f0cc80;
-
-        h1 {
-            color: #413434
-        }
-    }
-
-    .english-services {
+    .box {
+        align-items: flex-start;
+        animation: fadeIn 1s 1.8s backwards;
+        font-family: 'Helvetica Neu';
+        font-weight: 600;
+        height: 50vh;
+        padding: 3.5em;
+        padding-bottom: 3vh;
         text-align: left;
-        background-color: #ece6d5;
 
         h1 {
-            color: #634b30;
+            text-align: left;
+            text-decoration: underline;
+        }
+    
+        h2 {
+            font-size: 4vmin;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 3vmin;
         }
     }
 
-    .modelling-services {
-        text-align: right;
+    .blender {
         background-color: #ecc411;
 
         h1 {
@@ -100,18 +108,35 @@
         }
     }
 
-    .gamedev-services {
-        text-align: left;
+    .english {
+        background-color: #ece6d5;
+
+        h1 {
+            color: #634b30;
+        }
+    }
+
+    .mathematics {
+        background-color: #f0cc80;
+
+        h1 {
+            color: #413434;
+        }
+
+        h2 {
+            color: #413434;
+        }
+    }
+
+    .python {
+        background-color: #ffffff;
+    }
+
+    .roblox-studios {
         background-color: #a3dff1;
 
         h1 {
             color: #413434;
         }
     }
-
-    .programming-services {
-        text-align: right;
-        background-color: #ffffff;
-    }
-
 }

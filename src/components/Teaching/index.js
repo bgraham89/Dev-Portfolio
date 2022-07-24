@@ -1,6 +1,7 @@
 import './index.scss'
 import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
+import {Blender, Mathematics} from '../Resources'
 
 const Teaching = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -17,35 +18,35 @@ const Teaching = () => {
                 <h1>
                     <AnimatedLetters letterClass={letterClass} strArray={textArray} idx={5}/>
                 </h1>
-                <p>5+ years teaching and tutoring experience.</p>
-                <p>Rates starting from £30 per hour per group.</p>
                 <div className='courses flex-col'>
                     <div className='chalk-outline'>
-                        <h2>Available Courses</h2>
+                        <h2>Recommended Resources</h2>
                         <ul>
-                            <li><a href='#mathematics' className='course-name'>Mathematics</a></li> 
+                            <li><a href='#blender' className='course-name'>3d-modelling with Blender</a></li> 
                             <li><a href='#english' className='course-name'>English language</a></li>
-                            <li><a href='#3d' className='course-name'>3d-modelling with Blender</a></li>
-                            <li><a href='#gamedev' className='course-name'>game development with Roblox Studios</a></li>
-                            <li><a href='#programming' className='course-name'>Programming with Python</a></li>
+                            <li><a href='#roblox' className='course-name'>game development with Roblox Studios</a></li>
+                            <li><a href='#mathematics' className='course-name'>Mathematics</a></li>
+                            <li><a href='#python' className='course-name'>Programming with Python</a></li>
                         </ul>
                     </div>
                 </div>
             </section>
-            <section className='mathematics-services flex-col'>
-                <h1 id='mathematics'>Mathematics</h1>
+            <section className='blender flex-col'>
+                <h1 id='blender'>Blender</h1>
+                <Blender/>
             </section>
-            <section className='english-services flex-col'>
+            <section className='english flex-col'>
                 <h1 id='english'>English Language</h1>
             </section>
-            <section className='modelling-services flex-col'>
-                <h1 id='3d'>3d Modelling</h1>
+            <section className='mathematics flex-col'>
+                <h1 id='mathematics'>Mathematics</h1>
+                <Mathematics/>
             </section>
-            <section className='gamedev-services flex-col'>
-                <h1 id='gamedev'>Game Development</h1>
+            <section className='python flex-col right'>
+                <h1 id='python'>Python</h1>
             </section>
-            <section className='programming-services flex-col'>
-                <h1 id='programming'>Programming</h1>
+            <section className='roblox-studios flex-col'>
+                <h1 id='roblox'>Roblox Studios</h1>
             </section>
         </div>
     )
