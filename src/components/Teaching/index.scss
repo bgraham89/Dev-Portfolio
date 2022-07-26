@@ -78,9 +78,8 @@
         animation: fadeIn 1s 1.8s backwards;
         font-family: 'Helvetica Neu';
         font-weight: 600;
-        height: 50vh;
+        min-height: 50vh;
         padding: 3.5em;
-        padding-bottom: 3vh;
         text-align: left;
 
         h1 {
@@ -98,6 +97,10 @@
             text-decoration: none;
             font-size: 3vmin;
         }
+    }
+
+    .links {
+        padding-bottom: 3.5vh;
     }
 
     .blender {

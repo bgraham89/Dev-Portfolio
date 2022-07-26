@@ -1,7 +1,7 @@
 import './index.scss'
 import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
-import {Blender, Mathematics} from '../Resources'
+import {Blender, English, Mathematics} from '../Resources'
 
 const Teaching = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -31,21 +31,22 @@ const Teaching = () => {
                     </div>
                 </div>
             </section>
-            <section className='blender flex-col'>
+            <section className='blender links flex-col'>
                 <h1 id='blender'>Blender</h1>
                 <Blender/>
             </section>
-            <section className='english flex-col'>
+            <section className='english links flex-col'>
                 <h1 id='english'>English Language</h1>
+                <English/>
             </section>
-            <section className='mathematics flex-col'>
+            <section className='mathematics links flex-col'>
                 <h1 id='mathematics'>Mathematics</h1>
                 <Mathematics/>
             </section>
-            <section className='python flex-col right'>
+            <section className='python links flex-col'>
                 <h1 id='python'>Python</h1>
             </section>
-            <section className='roblox-studios flex-col'>
+            <section className='roblox-studios links flex-col'>
                 <h1 id='roblox'>Roblox Studios</h1>
             </section>
         </div>
