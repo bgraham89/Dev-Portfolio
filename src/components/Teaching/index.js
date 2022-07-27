@@ -1,7 +1,7 @@
 import './index.scss'
 import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
-import {Blender, English, Mathematics} from '../Resources'
+import {Blender, English, Mathematics, Python, Roblox} from '../Resources'
 
 const Teaching = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -45,9 +45,11 @@ const Teaching = () => {
             </section>
             <section className='python links flex-col'>
                 <h1 id='python'>Python</h1>
+                <Python/>
             </section>
             <section className='roblox-studios links flex-col'>
                 <h1 id='roblox'>Roblox Studios</h1>
+                <Roblox/>
             </section>
         </div>
     )

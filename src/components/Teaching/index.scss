@@ -94,8 +94,13 @@
         }
 
         a {
-            text-decoration: none;
+            color: blue;
             font-size: 3vmin;
+            text-decoration: none;
+        }
+
+        ul {
+            list-style: none;
         }
     }
 
@@ -104,17 +109,18 @@
     }
 
     .blender {
-        background-color: #ecc411;
+        background-color: #efd76c;
 
-        h1 {
+        h1, h2 {
             color: #181818;
         }
+
     }
 
     .english {
         background-color: #ece6d5;
 
-        h1 {
+        h1, h2 {
             color: #634b30;
         }
     }
@@ -122,11 +128,7 @@
     .mathematics {
         background-color: #f0cc80;
 
-        h1 {
-            color: #413434;
-        }
-
-        h2 {
+        h1, h2 {
             color: #413434;
         }
     }
@@ -138,7 +140,7 @@
     .roblox-studios {
         background-color: #a3dff1;
 
-        h1 {
+        h1, h2 {
             color: #413434;
         }
     }
