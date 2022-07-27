@@ -14,10 +14,10 @@ const Mathematics = () => {
                 <li><a href="https://www.youtube.com/playlist?list=PLDDGPdw7e6Aj1kTRn-MxD0YVZ-zEL5vBb" target="_blank">Differential Calculus Videos - TrevTutor</a></li>
                 <li><a href="https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/" target="_blank">Elementary Mathematics for Computer Science Course - MIT</a></li>
                 <li><a href="https://www.youtube.com/playlist?list=PLVMgvCDIRy1x_AmA8lhrPB_plInV_wR8Y" target="_blank">Elementary Number Theory Videos - MathMajor</a></li>
-                <li><a href="https://github.com/ossu/math" target="_blank">Full Undergraduate Maths Course - OSSU</a></li>
                 <li><a href="https://www.youtube.com/playlist?list=PLDDGPdw7e6Ah6w0U4hrERCiUTNQiMfitK" target="_blank">Integral Calculus Videos - TrevTutor</a></li>
                 <li><a href="https://ocw.mit.edu/courses/18-02-multivariable-calculus-fall-2007/video_galleries/video-lectures/" target="_blank">Multivariable Calculus Course - MIT</a></li>
                 <li><a href="https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/video_galleries/video-lectures/" target="_blank">Real Analysis Course - MIT</a></li>
+                <li><a href="https://github.com/ossu/math" target="_blank">Undergraduate Maths Full Course - OSSU</a></li>
                 <li><a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr" target="_blank">Visual Calculus Videos - 3Blue1Brown</a></li>
                 <li><a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab" target="_blank">Visual Linear Algebra Videos - 3Blue1Brown</a></li>
             </ul>

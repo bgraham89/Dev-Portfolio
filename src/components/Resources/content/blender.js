@@ -5,6 +5,7 @@ const Blender = () => {
             <ul>
                 <li><a href="https://www.youtube.com/playlist?list=PLjEaoINr3zgEL9UjPTLWQhLFAK7wVaRMR" target="_blank">Chair Modelling Tutorial - Blender Guru</a></li>
                 <li><a href="https://www.youtube.com/playlist?list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD" target="_blank">Donut Modelling Tutorial - Blender Guru</a></li>
+                <li><a href="https://www.blender.org/support/tutorials/" target="_blank"> Official Blender Tutorials - Blender.org</a></li>
             </ul>
             <h2>Resources for Intermediate+:</h2>
             <ul>
